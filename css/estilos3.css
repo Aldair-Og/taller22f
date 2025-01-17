@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #111827;
-    color: #ffffff;
+    color: #000000;
 }
 
 header {
@@ -29,3 +29,10 @@ nav a {
     margin: 0 10px;
 }
 
+#texto1{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111827;
+    color: #ffffff;
+}
