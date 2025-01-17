@@ -1,294 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="css/pagina1.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <header class="bg-dark text-white p-3">
-        <div class="container text-center">
-            <h4 class="fw-bold text-uppercase">
-                Music Página
-                <img src="multimedia/pngtree-music-logo-png-image_6389182.png" alt="Logo" height="50">
-            </h4>
-        </div>
-    </header>
+<body class="bg-gray-100 font-sans">
 
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="multimedia/pngtree-music-logo-png-image_6389182.png" alt="Logo" height="40">
-                Music Página
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Eventos">Conciertos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Art">Artistas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Canciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Articulos.html">Articulos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Contacto.html">Nosotros</a>
-                    </li>
+
+  <header class="bg-gray-800 text-white py-6 text-center">
+    <div class="flex items-center justify-center space-x-4">
+        <h4 class="text-xl font-semibold">Music Web</h4>
+    </div>
+</header>
 
 
 
-                
-
-                    <li class="nav-item">
-                        <div class="dropdown">
-                            <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-                            Iniciar sesion
-                            </button>
-                            <form class="dropdown-menu p-4 ">
-                            <div class="mb-3">
-                                <label for="exampleDropdownFormEmail2" class="form-label">Correo electronico</label>
-                                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="correo@ejemplo.com">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleDropdownFormPassword2" class="form-label">Constraseña</label>
-                                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Constraseña">
-                            </div>
-                            <div class="mb-3">
-                                <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
-                                <label class="form-check-label" for="dropdownCheck2">
-                                    Recordar me
-                                </label>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Sign in</button>
-                            </form>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+    <nav class="bg-gray-700 text-white">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <h3 class="text-2xl font-bold"></h3>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:text-gray-300">Inicio</a></li>
+                <li><a href="galeria.html" class="hover:text-gray-300">Canciones</a></li>
+                <li><a href="Articulos.html" class="hover:text-gray-300">Articulos</a></li>
+                <li><a href="Contacto.html" class="hover:text-gray-300">Nosotros</a></li>
+            </ul>
         </div>
     </nav>
 
+    <main class="container mx-auto p-6">
 
+        <section class="text-gray-900 body-font bg-white">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap w-full mb-20">
+              <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-black">
+                  Página dedicada a la música
+                </h1>
+                <div class="h-1 w-20 bg-black rounded mb-4"></div>
+                <img class="w-[500px] object-cover h-64 rounded-lg shadow-md" src="img/strokes.png" alt="Imagen de música" >
+              </div>
+              <p class="lg:w-1/2 w-1/2 leading-relaxed text-gray-700 text-opacity-90 mt-8 ">
+                <br>Esta página fue creada con el fin de brindar información sobre temas musicales o para personas que buscan
+                explorar el mundo de la música. Se busca informar sobre canciones, artistas, conciertos y más.
+              </p>
+            </div>
+          </div>
+        
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-black">Seccion de noticias</h1>
+              <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                  <div class="bg-white bg-opacity-60 p-6 rounded-lg shadow-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="img/danielme.png" alt="content">
+                    <h2 class="text-lg text-black font-medium title-font mb-4">Noticia</h2>
+                    <h2 class="text-lg text-black font-medium title-font mb-4">Daniel, me estás matando</h2>
+                    <p class="leading-relaxed text-base text-gray-600">La banda "Daniel, me estás matando", Saca nuevo tema oficial.</p>
+                  </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                  <div class="bg-white bg-opacity-60 p-6 rounded-lg shadow-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="img/gorilllaz.jpg" alt="content">
+                    <h2 class="text-lg text-black font-medium title-font mb-4">Noticia</h2>
+                    <h2 class="text-lg text-black font-medium title-font mb-4">Gorillaz</h2>
+                    <p class="leading-relaxed text-base text-gray-600">La Banda Gorillaz dice lo siguiente:
+                      <a class="text-blue-500 hover:underline font-semibold" href="https://x.com/gorillaz/status/1758194598789194190" target="_blank">Noticia</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                  <div class="bg-white bg-opacity-60 p-6 rounded-lg shadow-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="img/strokes.png" alt="content">
+                    <h2 class="text-lg text-black font-medium title-font mb-4">Noticia</h2>
+                    <h2 class="text-lg text-black font-medium title-font mb-4">The Strokes</h2>
+                    <p class="leading-relaxed text-base text-gray-600">La Banda Strokes dara una gira por el mundo, Mas informacion aqui.</p>
+                    <a class="text-blue-500 hover:underline font-semibold" href="https://x.com/strokescolombia" target="_blank">Noticia</a>
+                  </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                  <div class="bg-white bg-opacity-60 p-6 rounded-lg shadow-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="img/mon.png" alt="content">
+                    <h2 class="text-lg text-black font-medium title-font mb-4">Noticia</h2>
+                    <h2 class="text-lg text-black font-medium title-font mb-4">Mon Laferte</h2>
+                    <p class="leading-relaxed text-base text-gray-600">Escucha este tema de Mon Laferte.</p>
+                    <a class="text-blue-500 hover:underline font-semibold" href="https://www.youtube.com/watch?v=5R1RGl4WQP8" target="_blank">Tema</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <br>
+          <section class="bg-gray-700 text-white p-6 rounded-lg mb-6">
+            <h3 class="text-2xl font-semibold">Conciertos en Ecuador</h3>
+            <ul class="list-disc pl-5 mt-3">
+              <li>Concierto de Juan Fernando Velasco - 25 de enero, 2025</li>
+              <li>Las Huellas de mi Alma Tour - 1 de febrero, 2025</li>
+              <li>Mago de Oz y Avalanch - 30 de enero y 1 de febrero, 2025</li>
+              <li>Ha-Ash: Haashville Tour - 30 de enero. 2025</li>
+              <li>Alejandro Lerner, junto a Marques - 13 de febrero, 2025</li>
+            </ul>
+          </section>
+<br>
+<br>
 
-    </div>
-    <div class="alert alert-success" role="alert">Bienvenidos a esta pagina dedica a musica <br>
-    </div>
+        <section class="space-y-6">
+          <h3 class="text-2xl font-semibold">Artistas Ecuatorianos</h3>
+          <a href="https://www.google.com/search?q=Gerardo+Mor%C3%A1n&oq=ger&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgwIAhAuGEMYgAQYigUyDwgDEC4YQxixAxiABBiKBTISCAQQLhhDGNQCGLEDGIAEGIoFMgwIBRAuGEMYgAQYigUyBggGEEUYPDIGCAcQRRhB0gEIMjUxOWowajmoAgCwAgE&sourceid=chrome&ie=UTF-8" class="block bg-white shadow-lg p-6 rounded-lg hover:bg-gray-50 transition duration-300 ease-in-out transform hover:scale-105">
+            
+            <img src="img/gerardo.png" alt="Gerardo Morán" class="w-64 h-auto rounded-t-lg shadow-md mb-4 transition duration-300 ease-in-out transform hover:scale-110 hover:rotate-2" />
+            <h5 class="text-xl font-semibold mb-2">Gerardo Morán</h5>
+            <p class="text-gray-700 mb-2">Es un cantante de tecnocumbia ecuatoriano.</p>
+            <small class="text-gray-500">También conocido como El Más Querido.</small>
+        </a>
+        
+        <a href="https://www.google.com/search?q=Don+Medardo+y+sus+Players&sca_esv=658d89c84236d039&cs=1&sxsrf=ADLYWIJY2_nEeBStFEofeSADMV5yFslVgQ%3A1737107931457&ei=2ymKZ53PG4KykvQP37ie8As&ved=0ahUKEwjdqMOpv_yKAxUCmYQIHV-cB74Q4dUDCA8&uact=5&oq=Don+Medardo+y+sus+Players&gs_lp=Egxnd3Mtd2l6LXNlcnAiGURvbiBNZWRhcmRvIHkgc3VzIFBsYXllcnMyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyDRAAGIAEGLADGEMYigUyDRAuGIAEGLADGEMYigUyDRAAGIAEGLADGEMYigUyDRAuGIAEGLADGEMYigUyDhAAGLADGOQCGNYE2AEBMg4QABiwAxjkAhjWBNgBATIOEAAYsAMY5AIY1gTYAQEyExAuGIAEGLADGEMYyAMYigXYAQEyExAuGIAEGLADGEMYyAMYigXYAQEyExAuGIAEGLADGEMYyAMYigXYAQEyExAuGIAEGLADGEMYyAMYigXYAQFIhQVQAFgAcAF4AJABAJgBfaABfaoBAzAuMbgBA8gBAJgCAaACBJgDAIgGAZAGE7oGBggBEAEYCZIHATGgB90a&sclient=gws-wiz-serp" class="block bg-white shadow-lg p-6 rounded-lg hover:bg-gray-50 transition duration-300 ease-in-out transform hover:scale-105">
+          
+          <img src="img/players.png" alt="Gerardo Morán" class="w-64 h-auto rounded-t-lg shadow-md mb-4 transition duration-300 ease-in-out transform hover:scale-110 hover:rotate-2" />
+                <h5 class="text-xl font-semibold mb-2">Don Medardo y sus Players</h5>
+                <p class="text-gray-700 mb-2">Es una orquesta ecuatoriana de cumbia, formada en el año 1967 por Medardo Luzuriaga.​</p>
+                <small class="text-gray-500">Un joven con un estilo único y una gran proyección.</small>
+            </a>
 
-
-
-    <main class="container">
-    <div class="toast align-items-center fade show" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="d-flex">
-        <div class="toast-body">
-            Pagina hecha por diversion.
-        </div>
-        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-    </div>
-
-    </main>
-    <br>
-
-
-    <main class="container">
-            <h2 class="section-title">Musica página</h2>
-            <p>En esta pagina podras encontrar o descubrir nueva musica para cualquier gusto musicales,
-                Tambien estaras al tanto de noticias nuevas de temas musicales, cantantes, conciertos u otras cosas
-            </p>
+            <a href="https://www.google.com/search?q=Julio+Jaramillo&oq=juli&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIPCAEQLhhDGLEDGIAEGIoFMgYIAhBFGDkyDwgDEC4YQxixAxiABBiKBTIMCAQQLhhDGIAEGIoFMhIIBRAuGEMYgwEYsQMYgAQYigUyEggGEC4YQxiDARixAxiABBiKBTISCAcQLhhDGIMBGLEDGIAEGIoFMgwICBAuGEMYgAQYigUyDAgJEC4YQxiABBiKBdIBCDExMDNqMGo5qAIAsAIA&sourceid=chrome&ie=UTF-8" class="block bg-white shadow-lg p-6 rounded-lg hover:bg-gray-50 transition duration-300 ease-in-out transform hover:scale-105">
+              <img src="img/julio.png" alt="Gerardo Morán" class="w-64 h-auto rounded-t-lg shadow-md mb-4 transition duration-300 ease-in-out transform hover:scale-110 hover:rotate-2" />
+              <h5 class="text-xl font-semibold mb-2">Julio Jaramillo</h5>
+              <p class="text-gray-700 mb-2"> Fue un cantante y compositor ecuatoriano. Se especializó en los géneros de bolero, pasillos, vals, y tango.</p>
+              <small class="text-gray-500">Reconocidos por su musica.</small>
+          </a>
+          <a href="https://www.google.com/search?q=Paulina+Tamayo&oq=pa&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyBggDEEUYOzIGCAQQIxgnMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEHNzU5ajBqOagCALACAQ&sourceid=chrome&ie=UTF-8#vhid=jqH4BJMS5FUA4M&vssid=l" class="block bg-white shadow-lg p-6 rounded-lg hover:bg-gray-50 transition duration-300 ease-in-out transform hover:scale-105">
+            <img src="img/pauilna.png" alt="Gerardo Morán" class="w-64 h-auto rounded-t-lg shadow-md mb-4 transition duration-300 ease-in-out transform hover:scale-110 hover:rotate-2" />
+              <h5 class="text-xl font-semibold mb-2">Paulina Tamayo</h5>
+              <p class="text-gray-700 mb-2">Conocida también como “La Grande del Ecuador”, es cantautora de música nacional.</p>
+              <small class="text-gray-500">Se destaca en los géneros musicales como Albazo, Pasillo, Pasacalles, etc.</small>
+          </a>
 
         </section>
 
     </main>
 
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2025 Mi Música, Todos los derechos reservados.</p>
+    </footer>
 
-        <div class="container my-4">
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/gorilllaz.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Noticias</h5>
-                            <p class="card-text">La banda Gorillaz saca nueva cancion.</p>
-                            <a href="galeria.html" class="btn btn-dark">Mas..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/mac_resized.png" height="180" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Noticias</h5>
-                            <p class="card-text"> Mac DeMarco saca nuevo tema.</p>
-                            <a href="#" class="btn btn-dark">Mas</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/strokes.png" height="210" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Noticias</h5>
-                            <p class="card-text"> The Strokes, su musica es tendencia.</p>
-                            <a href="#" class="btn btn-dark">Mas</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <main class="container">
-        <header class="bg-success text-white p-3">
-        <div id="Eventos">
-            <h4 class="section-title">Conciertos Ecuador Enero 2025</h4>
-            </header>
-            <br>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item"> <strong>Mago de Oz y Avalanch</strong>
-                <br> El sábado 25 de enero de 2025, en la Plaza de Toros Quito,
-                es la fecha y lugar en la que ambas bandas tocarán
-            </li>
-            <li class="list-group-item"><strong>Ha-Ash: Haashville Tour </strong>
-                <br> El 30 de enero en el Coliseo General Rumiñahui en Quito y el 1 de febrero en el Estadio Modelo Alberto Spencer, de Guayaquil.
-            </li>
-
-            <li class="list-group-item"><strong>Fonseca: Tropicalia Tour</strong>
-                <br>el sábado 1 de febrero de 2025, desde las 20:00, en el Coliseo General Rumiñahui.
-            </li>
-
-            <li class="list-group-item"><strong>Alejandro Lerner, junto a Marqués</strong>
-                <br>El 13 de febrero de 2025, El evento tendrá lugar en el Teatro Nacional de la Casa de la Cultura Ecuatoriana en Quito.
-            </li>
-        </ul>
-
-
-        <p>
-            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-            Nota...
-            </button>
-        </p>
-        <div style="min-height: 120px;">
-            <div class="collapse collapse-horizontal" id="collapseWidthExample">
-            <div class="card card-body" style="width: 300px;">
-                !!! No todos los conciertos puedan cumplir con su fecha, se puede dar el caso que algun concirto se cancele o 
-                cambie de fecha !!!.
-            </div>
-            </div>
-        </div>
-        <br>
-        <main class="container">
-            <header class="bg-success text-white p-3">
-            <div id="Eventos">
-                <h4 class="section-title">Musicos Ecuatorianos</h4>
-                </header>
-                <br>
-<div  id="Art" class="list-group">
-    <a href="galeria.html" class="list-group-item list-group-item-action">
-    <div class="d-flex w-100 justify-content-between">
-        <h5 class="mb-1">Julio Jaramillo</h5>
+    <div class="fixed bottom-6 right-6 bg-blue-500 text-white py-3 px-6 rounded-lg shadow-lg flex items-center space-x-4">
+        <span>!! Bienvenido !!</span>
+        <button onclick="this.parentElement.style.display='none'" class="text-white font-bold">X</button>
     </div>
-    <p class="mb-1">fue un cantante y compositor ecuatoriano. Se especializó en los géneros de bolero, pasillos, vals, y tango</p>
-    <small class="text-body-secondary">Nacimiento: 1 de octubre de 1935, Guayaquil</small>
-    </a>
-    <a href="galeria.html" class="list-group-item list-group-item-action">
-    <div class="d-flex w-100 justify-content-between">
-        <h5 class="mb-1">Paulina Tamayo</h5>
-    </div>
-    <p class="mb-1">Conocida también como “La Grande del Ecuador”, es cantautora de música nacional, quien se destaca en los géneros musicales como Albazo, Pasillo, Pasacalles, etc. </p>
-    <small class="text-body-secondary">Nacimiento: 14 de abril de 1965 (edad 59 años), Quito</small>
-    </a>
-    <a href="galeria.html" class="list-group-item list-group-item-action">
-    <div class="d-flex w-100 justify-content-between">
-        <h5 class="mb-1">Gerardo Morán</h5>
-    </div>
-    <p class="mb-1">Es un cantante de tecnocumbia ecuatoriano, también conocido como El Más Querido.</p>
-    <small class="text-body-secondary">Nacimiento: 2 de diciembre de 1968 (edad 56 años), Caluma.</small>
-    </a>
-</div>
-
-<br>
-
-<!-- Boton modal -->
-<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Nota..
-</button>
-
-<!-- Modal -->
-
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-    <div class="modal-content">
-        <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">informacion</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-        Esta informacion se actualizara con el tiempo
-        </div>
-        <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-    </div>
-    </div>
-</div>
-
-</div>
-        </main>
-
-<br>
-
-
-<nav aria-label="Page navigation example">
-    <ul class="pagination">
-    <li class="page-item">
-        <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-        </a>
-    </li>
-    <li class="page-item"><a class="page-link" href="Contacto.html">1</a></li>
-    <li class="page-item"><a class="page-link" href="galeria.html">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-        <a class="page-link" href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-        </a>
-    </li>
-    </ul>
-</nav>
-
-
-
-
-
-</main>
-
-<br>
-<footer>
-    <h3>Acerca de</h3>
-    <address>
-        Dueño de la página: Aldair Endara <br>
-        Contacto Tel: 0962312906
-        <img src="img/tell.png" alt="Teléfono" width="10px" height="10px"> <br>
-        © Copyright
-    </address>
-</footer>
 
 </body>
 
